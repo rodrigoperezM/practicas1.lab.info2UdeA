@@ -2,14 +2,14 @@
 #include<conio.h>
 using namespace std;
 
-/*Ejercicio 3. Escriba un programa que debe leer un mes y un día de dicho mes para luego
-decir si esa combinación de mes y día son válidos. El caso más especial es el 29 de febrero,
-en dicho caso imprimir “posiblemente año bisiesto”.
+/*Ejercicio 3. Escriba un programa que debe leer un mes y un dÃ­a de dicho mes para luego
+decir si esa combinaciÃ³n de mes y dÃ­a son vÃ¡lidos. El caso mÃ¡s especial es el 29 de febrero,
+en dicho caso imprimir â€œposiblemente aÃ±o bisiestoâ€.
 Nota: el formato de salida debe ser:
 14 es un mes invalido.
 31/4 es una fecha invalida.
 27/4 es una fecha valida.
-29/2 es válida en bisiesto.
+29/2 es vÃ¡lida en bisiesto.
 */
 int main()
 
@@ -40,7 +40,7 @@ cin>>dia;
 
     else (mes==2 & dia==29);
     {
-	cout<<"posible año bisiesto";
+	cout<<"posible aÃ±o bisiesto";
 	}
 	return 0;
 	
