@@ -1,7 +1,13 @@
 #include <iostream>
+#include<coni.h>
 using namespace std;
 
-// FunciÛn para verificar si un n˙mero es primo
+/*Ejercicio 13. Escriba un programa que reciba un n√∫mero y calcule la suma de todos los
+primos menores que el n√∫mero ingresado.
+Ej: Si se recibe 10 el programa debe imprimir 17.
+Nota: la salida del programa debe ser: El resultado de la suma es: 17.*/
+
+// Funci√≥n para verificar si un n√∫mero es primo
 bool Primo(int n) 
 {
     if (n <= 1) {
@@ -28,7 +34,7 @@ int main()
 	{
         if (Primo(i)) 
 		{
-            suma += i;//cuenta la suma de los n˙meros primos encontrados en la iteraciÛn.
+            suma += i;//cuenta la suma de los n√∫meros primos encontrados en la iteraci√≥n.
 
 
 
