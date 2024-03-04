@@ -34,12 +34,7 @@ int main()
 	{
         if (Primo(i)) 
 		{
-            suma += i;//cuenta la suma de los números primos encontrados en la iteración.
-
-
-
-
-
+            suma += i;//cuenta la suma de los números primos encontrados en la iteración
 
         }
     }
